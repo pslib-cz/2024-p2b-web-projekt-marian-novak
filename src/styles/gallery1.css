@@ -32,13 +32,6 @@
     visibility: hidden;
 }
 
-.info {
-    position: relative;
-}
-.info a:hover .info__text {
-    visibility: visible;
-}
-
 .info a::before {
     content: "i";
     position: absolute;
