@@ -10,12 +10,6 @@ body {
   flex-direction: column;
 }
 
-.app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
 .header
 {
   background-color: #474746;
@@ -33,6 +27,7 @@ body {
 {
   height: auto;
   width: 30px;
+  color: #474746;
 }
 
 .menu__logo
@@ -48,7 +43,7 @@ body {
   padding-bottom: 0.3em;
 }
 
-.footer>p {
+.footer > p {
   color: white;
   font-size: 0.8em;
   margin: 0.5em;
@@ -82,7 +77,7 @@ body {
 }
 .logo
 {
-  width: 70%;
+  width: 60%;
   max-width: 600px;
   height: auto;
 }
@@ -128,8 +123,8 @@ body {
   flex-direction: column;
   gap: 1rem;
   width: 100%;
-  max-width: 600px; /* Limit maximum size */
-  margin: 0 auto; /* Center the form */
+  max-width: 600px;
+  margin: 0 auto; 
 }
 
 .recenze__form button {
