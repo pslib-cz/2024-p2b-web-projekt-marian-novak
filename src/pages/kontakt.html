@@ -22,11 +22,9 @@
     <main class="main">
       <p class="recenze">Chcete nám napsat recenzi a pomoct nám jak vylepšit naší restauraci?</p>
       <p class="recenze">Zde máte prostor:</p>
-      <form class="recenze__form" action="https://formspree.io/f/xjvjlqzj" method="POST">
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" required>
-        <label for="message">Recenze:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
+      <form id="kontakt-form">
+        <input type="email" name="email" placeholder="Váš e-mail" required>
+        <textarea name="zprava" placeholder="Napište zprávu..." required></textarea>
         <button type="submit">Odeslat</button>
       </form>
       <div class="kontakt__container">
