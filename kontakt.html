@@ -8,7 +8,7 @@
     <script type="module" crossorigin src="/2024-p2b-web-projekt-marian-novak/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
     <script type="module" crossorigin src="/2024-p2b-web-projekt-marian-novak/assets/hamburger-DzGNCfwF.js"></script>
     <script type="module" crossorigin src="/2024-p2b-web-projekt-marian-novak/assets/main-Bgzv3cQd.js"></script>
-    <link rel="stylesheet" crossorigin href="/2024-p2b-web-projekt-marian-novak/assets/style-DY72yY9G.css">
+    <link rel="stylesheet" crossorigin href="/2024-p2b-web-projekt-marian-novak/assets/style-CCDLHst4.css">
   </head>
   <body>
     <header class="header">
@@ -25,11 +25,9 @@
     <main class="main">
       <p class="recenze">Chcete nám napsat recenzi a pomoct nám jak vylepšit naší restauraci?</p>
       <p class="recenze">Zde máte prostor:</p>
-      <form class="recenze__form" action="https://formspree.io/f/xjvjlqzj" method="POST">
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" required>
-        <label for="message">Recenze:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
+      <form id="kontakt-form">
+        <input type="email" name="email" placeholder="Váš e-mail" required>
+        <textarea name="zprava" placeholder="Napište zprávu..." required></textarea>
         <button type="submit">Odeslat</button>
       </form>
       <div class="kontakt__container">
