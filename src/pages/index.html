@@ -12,23 +12,37 @@
       <nav>
         <div class="menu">
           <img class="menu__logo" src="/public/svg/Luigiho Pennes.svg" alt="logo">
-          <a href="./index.html"><img class="button" src="/public/svg/home.svg" alt="Domovská stránka"></a>
-          <a href="./menu.html"><img class="button" src="/public/svg/silverware.svg" alt="Menu"></a>
-          <a href="./kontakt.html"><img class="button" src="/public/svg/card-account-mail.svg" alt="Kontakt"></a>
-          <a href="./onas.html"><img class="button" src="/public/svg/information.svg" alt="O nás"></a>
+          <a href="./index.html"><span class="menu__text">Domů</span><img class="button" src="/public/svg/home.svg" alt="Domovská stránka"></a>
+          <a href="./menu.html"><span class="menu__text">Stálá nabídka</span><img class="button" src="/public/svg/silverware.svg" alt="Menu"></a>
+          <a href="./kontakt.html"><span class="menu__text">Kontakt</span><img class="button" src="/public/svg/card-account-mail.svg" alt="Kontakt"></a>
+          <a href="./onas.html"><span class="menu__text">O nás</span><img class="button" src="/public/svg/information.svg" alt="O nás"></a>
         </div>
       </nav>
     </header>
     <main class="main">
       <p class="nadpis" >Vítejte u</p>
       <img class="logo" src="/public/svg/Luigiho Pennes-cerne.svg" alt="logo">
-      <img class="main__image" src="/public/images/venku.png" alt="Italská restaurace">
-      <img class="main__image" src="/public/images/uvnitř.png" alt="Italská restaurace">
-      <img class="main__image" src="/public/images/ulice.png" alt="Italská restaurace">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img class="main__image" src="/public/images/venku.png" alt="Italská restaurace">
+         </div>
+         <div class="swiper-slide">
+            <img class="main__image" src="/public/images/uvnitř.png" alt="Italská restaurace">
+         </div>
+         <div class="swiper-slide">
+            <img class="main__image" src="/public/images/ulice.png" alt="Italská restaurace">
+         </div>
+        </div>
+      </div>
     </main>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div> 
     <footer class="footer">
         <p>Luigiho Pennes, Mandelová 892/14 Praha 7</p>
     </footer>
     <script type="module" src="/src/scripts/main.js"></script>
+    <script type="module" src="/src/scripts/swiper.js"></script>
   </body>
 </html>

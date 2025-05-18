@@ -23,6 +23,23 @@ body {
   align-items: center;
 }
 
+.menu a {
+  display: flex;
+  align-items: center;
+}
+
+.menu__text
+{
+  color: white;
+  font-size: 1.2em;
+  font-weight: bolder;
+  text-decoration: none;
+  margin: 0.5em;
+  text-align: center;
+  margin-right: 0.3em;
+  display: none;
+}
+
 .button
 {
   height: auto;
@@ -84,14 +101,15 @@ body {
 
 .main__image
 {
-  width: 100%;
-  max-width: 800px;
-  height: auto;
+  width: 80%;
+  max-width: 600px;
+  height: 60%;
 }
 
 .jidelni__text
 {
   text-align: center;
+  max-width: 500px;
   margin: 2rem 2rem 0rem 2rem;
 }
 
@@ -166,3 +184,54 @@ body {
   transform: translateY(-2px);
 }
 
+.onas__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1em;
+}
+.onas__nadpis {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+.swiper{
+    width: 100%;
+    min-width: 360px;
+    height: 100%;
+}
+
+.swiper-slide
+{
+    align-content: center;
+    text-align: center;
+}
+@media (min-width: 1080px) {
+  .menu__text {
+    display: block;
+  }
+  .header {
+    margin-bottom: 1em;
+  }
+  .onas__text {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, auto);
+    text-align: left;
+    align-items: start;
+  }
+  .nadpis {
+    grid-row: 1 / -1;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  .kontakt__container {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+  }
+  .main
+  {
+    gap: 2em;
+  }
+}
