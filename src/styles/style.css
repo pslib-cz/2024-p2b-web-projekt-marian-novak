@@ -40,6 +40,13 @@ body {
   display: none;
 }
 
+.menu__text:hover
+{
+  color: #29BF12;
+  border-radius: 0.5em;
+  transition: all 0.2s ease;
+}
+
 .button
 {
   height: auto;
